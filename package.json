@@ -1,5 +1,8 @@
 {
   "name": "path-and-line",
+  "repository": {
+    "url": "https://github.com/ahogappa0613/path-and-line"
+  },
   "publisher": "ahogappa",
   "displayName": "path and line",
   "description": "copy path and line",
