@@ -3,7 +3,7 @@
   "publisher": "ahogappa",
   "displayName": "path and line",
   "description": "copy path and line",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.53.0"
   },
