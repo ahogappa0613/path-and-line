@@ -1,11 +1,11 @@
 {
-  "name": "path-and-line",
+  "name": "copy-source-location",
   "repository": {
     "url": "https://github.com/ahogappa0613/path-and-line"
   },
   "publisher": "ahogappa",
-  "displayName": "path and line",
-  "description": "copy path and line",
+  "displayName": "copy source location",
+  "description": "copy source location",
   "version": "0.1.1",
   "engines": {
     "vscode": "^1.53.0"
@@ -30,7 +30,7 @@
     "commands": [
       {
         "command": "path-and-line.invoke",
-        "title": "Copy Path and Line Number"
+        "title": "Copy SourceLocation"
       }
     ]
   },

@@ -18,7 +18,9 @@ export function activate(context: vscode.ExtensionContext): void {
 		// Display a message box to the user
 		const line = vscode.window.activeTextEditor?.selection.start.line;
 		const name = vscode.workspace.asRelativePath(vscode.window.activeTextEditor?.document.fileName || "");
-		if (line === undefined) { return; }
+		if (line === undefined) {
+			return;
+		}
 
 		vscode.env.clipboard.writeText(`${name}:${line + 1}`);
 	});
