@@ -30,7 +30,7 @@
     "commands": [
       {
         "command": "path-and-line.invoke",
-        "title": "Copy SourceLocation"
+        "title": "Copy Source Location"
       }
     ]
   },
